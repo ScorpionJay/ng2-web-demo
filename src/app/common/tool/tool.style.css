@@ -1,0 +1,27 @@
+/*侧栏跟随*/
+.toolbars {width:55px;height:305px;position:fixed;_position:absolute;right:10px; bottom:0px;z-index:1000; display:block;}
+.toolbars li{float:left;font-size:16px;color:#fff;text-align:center;height:55px;width:55px;line-height:17px;cursor:pointer;margin-bottom:5px; position:relative;}
+
+.toolbars .toolbars-title {display:block;padding-top:10px;height:45px;color:#fff;line-height:0;font-size:0;overflow:hidden;background-image: url(/images/common/toolbars.png);background-repeat: no-repeat;background-position: left top;}
+.toolbars .toolbars-title.tbmobile {background-position: left -165px;}
+.toolbars .toolbars-title.tbcalculator {background-position: left -220px;}
+.toolbars .toolbars-title.tbservice {background-position: left 0px;  }
+.toolbars .toolbars-title.tbservice a:hover{
+        background-color: red;  }
+.toolbars .toolbars-title.tbfeedback {background-position: left -55px;}
+.toolbars .toolbars-title.tbgototop {background-position: left -110px;}
+
+.toolbars li.cur .toolbars-title { background-color:#e59b1c; font-size:14px; line-height:16px; background-image:none;}
+
+.toolbars li .toolmain { position:absolute; width:120px; line-height:22px; font-size:14px; height:48px; padding-top:5px; top:0px; left:-130px; display:block; background-color:#ffffff;border: 1px solid #e3e3e3;color: #666; display:none;}
+
+.user-feedback { width:500px;}
+.user-feedback-form li { margin-bottom:24px; position:relative;}
+.user-feedback-form .textarea { width:390px; height:70px;}
+.user-feedback-form .btn { text-align:center;}
+.user-feedback-form-nologin { text-align:center; line-height:60px; font-size:14px;}
+
+
+
+
+

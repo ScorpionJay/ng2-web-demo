@@ -1,0 +1,43 @@
+<my-top></my-top>
+
+<div class="container">
+	<div class="innerbox">
+		<div class="login clearfix">
+			<div class="logForm">
+				<!--<div class="loginerror">账号或密码有误，请确认后重新登录 &nbsp;</div>-->
+					<ul>
+						<li class="formgroup">
+							<div class="forminput">
+								<span class="login-form-username"></span><input class="input" type="text" name="user_name" value="" placeholder="请输入手机号" maxlength="11" #username>
+							</div>
+						</li>
+						<li class="formgroup">
+							<div class="forminput">
+								<span class="login-form-password"></span><input id="password" class="input" type="password" name="password" value="" onfocus="this.type='password'" autocomplete="off" placeholder="请输入密码" #password >
+							</div>
+						</li>
+						<li class="formgroup">
+							<em class="fl"><input id="rememberMe" name="rememberMe" type="checkbox" >&nbsp;记住用户名</em>
+							<em class="fr"><a href="forget_password.html">忘记密码？</a></em></li>
+						<li class="formgroup btn">
+							<button id="submit_login" (click)='login(username.value,password.value)' class="ui-btn ui-btn-big"> <span>立即登录</span> </button>
+						</li>
+						<li class="formgroup">
+							<em class="fr">没有账号？ <a href="register.html">立即注册</a></em>
+						</li>
+					</ul>
+			</div>
+			<div class="logImages">
+				<img width="500" height="370" alt="login background" src="images/loginad.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<my-tool></my-tool>
+<my-footer></my-footer>
+
+
+
+

@@ -1,0 +1,27 @@
+/*底部*/
+.footer-sink {padding-bottom: 265px;}
+#footer {/* position: absolute; */bottom: 0;  left:0;width: 100%; overflow:hidden;background: #555;}
+.footer { width:100%; overflow:hidden;color: #eee; padding:30px 0px 30px 0px; height:165px; font-size:13px;}
+.footer a { color:#eee;}
+.footer a:hover { color:#fff;}
+.footer .line { background-image: url("/images/common/footer-boxbg.png"); background-position: center right; background-repeat: no-repeat;}
+.footer .helpmain { width:390px; float:left;}
+.footer .helpmain dl { float:left; padding:0px 35px 20px 20px;}
+.footer .helpmain dl dt { font-size:16px; font-weight:700; line-height:30px;}
+.footer .helpmain dl dd { line-height:26px;}
+.footer .ft-contact { width:300px; padding-left: 50px; float:left; line-height:26px;}
+.footer .ft-contact h3 { font-size:16px; margin-bottom:10px;}
+.footer .ft-contact h3 span { font-size: 14px; font-weight: normal;}
+.footer .ft-contact .tel { font-size: 32px;line-height: 54px; font-weight: bold;}
+.footer .ft-service { width:130px; float:left; padding-left: 50px;}
+.footer .ft-service h3 { font-size:16px; margin-bottom:5px;}
+
+.copyrightwp {}
+.copyrightwp .copyright { color:#eee; height:40px; line-height:40px; text-align:center; font-size:12px;}
+.copyrightwp .innerbox { position:relative;}
+
+
+
+
+
+
