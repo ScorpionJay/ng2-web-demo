@@ -257,7 +257,7 @@ module.exports = function (options) {
       ),
 
       /*
-       * Plugin: CopyWebpackPlugin
+       * Plugin: CopyWebpackPlugin 拷贝文件
        * Description: Copy files and directories in webpack.
        *
        * Copies project static assets.
@@ -266,6 +266,7 @@ module.exports = function (options) {
        */
       new CopyWebpackPlugin([
         { from: 'src/assets', to: 'assets' },
+        { from: 'src/images', to: 'images' },
         { from: 'src/meta'}
       ]),
 
